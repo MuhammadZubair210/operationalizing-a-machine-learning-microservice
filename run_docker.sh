@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t udacity .
+docker build -t udacity-project3 .
 
 # Step 2: 
 # List docker images
@@ -12,4 +12,4 @@ docker ps
 
 # Step 3: 
 # Run flask app
-docker run -p 3000:9090 udacity
+docker run -p 3000:9090 udacity-project3
