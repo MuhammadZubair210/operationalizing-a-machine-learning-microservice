@@ -12,4 +12,4 @@ docker ps
 
 # Step 3: 
 # Run flask app
-docker run -p 3000:80 udacity
+docker run -p 3000:9090 udacity
